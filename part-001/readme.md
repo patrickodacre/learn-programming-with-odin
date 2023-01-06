@@ -2,6 +2,10 @@
 
 Before we start, we must go over a few new terms.
 
+* Package - a collection of .odin files within a given folder in your program.
+* Function - a construct that wraps or contains a set of instructions for the computer.
+* Program Entry Point - the first function ran or called by the computer when executing your program.
+
 ## Package
 
 A Package is a folder or directory that contains .odin files for your program.
