@@ -111,7 +111,18 @@ The "fmt" package defines a function called `println()`. `println()` allows us t
 
 Type the following in your `main.odin` file:
 
-//
+```odin
+
+package main
+
+import "core:fmt"
+
+main :: proc()
+{
+	fmt.println("Hello, World")
+}
+
+```
 
 Now in your console, type `odin run main.odin - file` in the project's root folder, and you will see "Hello, World" printed on the console screen.
 
